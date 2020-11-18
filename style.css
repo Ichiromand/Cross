@@ -9,8 +9,6 @@ body {
 .header {
     height: 56px;
     background: #F7F4FE;
-    margin: 0 auto;
-    width: 1440px;
 }
 
 .header img {
@@ -47,11 +45,8 @@ align-items: center;
 }
 
 .container {
-    height: 764px;
     background: #F7F4FE;
-    width: 1440px;
-    margin: 0 auto;
-    box-sizing: border-box;
+    height: 764px;
 }
 
 .block1 {
@@ -243,5 +238,5 @@ line-height: 20px;
     font-size: 12px;
     line-height: 18px;
     color: #9BA0A5;
-    margin: 24 auto;
+    margin: 24px auto;
 }

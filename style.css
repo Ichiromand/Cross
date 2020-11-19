@@ -6,17 +6,31 @@ body {
     color: #1F2533;
 }
 
+@media screen and (min-width: 361px) and (max-width: 768px) {
+   .menu1 {
+       display: none;
+   }
+
+   .burderMenu {
+       display: block;
+   }
+}
+
 .header {
     height: 56px;
     background: #F7F4FE;
     display: flex;
-justify-content: space-between;
-align-items: center;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .header img {
 margin-left: 16px;
 padding-top: 16px;
+}
+
+.burderMenu {
+    display: none;
 }
 
 .menu1 {

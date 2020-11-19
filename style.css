@@ -281,16 +281,6 @@ line-height: 20px;
     }
  }
 
- @media screen and (max-width: 361px) {
-    .column1 {
-       width: 100%;        
-    }
- 
-    .column2, .column3 {
-        width: 100%;
-    }
- }
-
  @media screen and (min-width: 361px) and (max-width: 768px) {
    .menu2 {
       flex-direction: column;

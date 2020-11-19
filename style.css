@@ -9,20 +9,20 @@ body {
 .header {
     height: 56px;
     background: #F7F4FE;
+    display: flex;
+justify-content: space-between;
+align-items: center;
 }
 
 .header img {
 margin-left: 16px;
 padding-top: 16px;
-display: flex;
-justify-content: flex-start;
 }
 
 .menu1 {
-padding: 0;
-display: flex;
-justify-content: flex-end;
-align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .menu1 div {

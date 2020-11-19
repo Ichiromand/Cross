@@ -22,6 +22,7 @@ padding-top: 16px;
 
 .burderMenu {
     display: none;
+    margin-right: 12px;
 }
 
 .menu1 {
@@ -121,23 +122,31 @@ padding-bottom: 24px;
 }
 
 .block2 {
-    width: 1056px;
+    max-width: 1056px;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding-top: 104px;
+    flex-wrap: wrap;
 }
 
 .column1, .column2, .column3 {
-width: 288px;
+width: 30%;
+}
 
+.column2 {
+    margin-right: 20px;
 }
 
 .column1 {
 font-weight: 800;
 font-size: 24px;
 line-height: 32px;
+}
+
+.mainTitle {
+    margin-bottom: 24px;
 }
 
 .title {
@@ -155,13 +164,13 @@ font-weight: 500;
 }
 
 .block3 {
-    width: 672px;
+    max-width: 672px;
     height: 124px;
     background-color: #1F1F47;
     border-radius: 4px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -189,9 +198,12 @@ font-weight: 500;
     border-radius: 3px;
     padding: 10px 20px;
     color: white;
+    margin-right: 8px;
 }
 
 .arrow {
+    margin-left: 28px;
+    margin-right: 20px;
     width: 55px;
     height: 44px;
 }
@@ -200,7 +212,7 @@ font-weight: 500;
     height: 68px;
     width: 250px;
     color: #FFFFFF;
-    padding-right: ;
+    margin-right: 60px;
 }
 
 .text1 {
@@ -213,10 +225,6 @@ font-weight: 600;
     font-weight: 200;
     font-size: 14px;
 line-height: 20px;
-}
-
-.button {
-    height: 40px;
 }
 
 .logo2 {
@@ -257,4 +265,40 @@ line-height: 20px;
     .burderMenu {
         display: block;
     }
+ }
+
+ @media screen and (max-width: 768px) {
+    .column1 {
+       width: 100%;        
+    }
+ 
+    .column2, .column3 {
+        width: 48%;
+    }
+
+    .mainTitle {
+        width: 384px;
+    }
+ }
+
+ @media screen and (max-width: 361px) {
+    .column1 {
+       width: 100%;        
+    }
+ 
+    .column2, .column3 {
+        width: 100%;
+    }
+ }
+
+ @media screen and (min-width: 361px) and (max-width: 768px) {
+   .menu2 {
+      flex-direction: column;
+      align-items: center;
+   }
+
+   .menu2 span {
+       padding-right: 0;
+       padding-bottom: 12px;
+   }
  }

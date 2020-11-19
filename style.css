@@ -13,15 +13,15 @@ body {
 
 .header img {
 margin-left: 16px;
-margin-top: 16px;
-float: left;
+padding-top: 16px;
+display: flex;
+justify-content: flex-start;
 }
 
 .menu1 {
-float: right;
+padding: 0;
 display: flex;
-height: 56px;
-justify-content: space-between;
+justify-content: flex-end;
 align-items: center;
 }
 
@@ -219,8 +219,7 @@ line-height: 20px;
 .menu2 {
     display: flex;
     flex-direction: row;
-    width: 426px;
-    margin: 0 auto;
+    justify-content: center;
 }
 
 .menu2 span {
@@ -234,9 +233,9 @@ line-height: 20px;
 }
 
 .end {
-    width: 204px;
     font-size: 12px;
-    line-height: 18px;
     color: #9BA0A5;
-    margin: 24px auto;
+    margin: 24px 0;
+    text-align: center;
 }
+

@@ -60,7 +60,8 @@ padding-top: 16px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-top: 150px;
+    padding-top: 100px;
+    box-sizing: border-box;
 }
 
 .inblock1 {
@@ -130,6 +131,7 @@ padding-bottom: 24px;
     width: 50%;
     margin-right: 48px;
     margin-left: 48px;
+    margin-top: 98px;
 }
 
 .big img {
@@ -327,9 +329,10 @@ line-height: 20px;
     }
 
     .inblock1 {
-        padding-left: 25px;
+        padding-left: 30px;
         padding-right: 60px;
         width: 100%;
+        box-sizing: border-box;
     }
 
     .block1 {
@@ -380,6 +383,11 @@ line-height: 20px;
          width: 100%;
          padding: 0 16px;
      }
+
+     .inblock1 {
+        padding-left: 0;
+        padding-right: 40px;
+    }
  }
 
  @media screen and (max-width: 652px) {

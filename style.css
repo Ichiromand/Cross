@@ -51,7 +51,6 @@ padding-top: 16px;
 
 .container {
     background: #F7F4FE;
-    height: 764px;
 }
 
 .block1 {
@@ -62,6 +61,7 @@ padding-top: 16px;
     justify-content: space-between;
     padding-top: 202px;
     box-sizing: border-box;
+    padding-bottom: 200px;
 }
 
 .inblock1 {
@@ -286,10 +286,6 @@ line-height: 20px;
     .mainTitle {
         max-width: 384px;
     }
-
-    .container {
-        height: 456px;
-    }
     
     .block1 {
         padding-top: 80px;
@@ -352,7 +348,9 @@ line-height: 20px;
         width: 100%;
         padding: 0;
         padding-top: 16px;
-        padding-left: 98px;
+        padding-left: 48px;
+        padding-right: 48px;
+        box-sizing: border-box;
     }
         
     .block1 div:first-of-type {
@@ -398,7 +396,8 @@ line-height: 20px;
     }
 
     .big {
-        padding-left: 32px;
+        padding-left: 16px;
+        padding-right: 16px;
     }
  }
 

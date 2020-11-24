@@ -62,6 +62,7 @@ padding-top: 16px;
     padding-top: 202px;
     box-sizing: border-box;
     padding-bottom: 200px;
+    align-items: center
 }
 
 .inblock1 {
@@ -131,6 +132,7 @@ padding-bottom: 24px;
 .big {
     width: 50%;
     padding-right: 48px;
+
 }
 
 .big img {
@@ -289,10 +291,6 @@ line-height: 20px;
     
     .block1 {
         padding-top: 80px;
-    }
-
-    .big {
-        padding-top: 60px;
     }
 
     .title2 {

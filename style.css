@@ -337,10 +337,6 @@ line-height: 20px;
     }
  }
  @media screen and (max-width: 745px) {
-    .container {
-        max-height: 516px;
-    }
-
     .inblock1 {
         width: 100%;
         box-sizing: border-box;
@@ -353,8 +349,10 @@ line-height: 20px;
     }
 
     .big {
+        width: 100%;
         padding: 0;
         padding-top: 16px;
+        padding-left: 98px;
     }
         
     .block1 div:first-of-type {
@@ -397,6 +395,10 @@ line-height: 20px;
      .inblock1 {
         padding-left: 16px;
         padding-right: 16px;
+    }
+
+    .big {
+        padding-left: 32px;
     }
  }
 

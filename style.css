@@ -336,6 +336,7 @@ line-height: 20px;
     .inblock1 {
         width: 100%;
         box-sizing: border-box;
+        padding-bottom: 50px;
     }
 
     .block1 {
